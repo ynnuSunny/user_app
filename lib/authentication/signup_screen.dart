@@ -11,6 +11,7 @@ class SignUpScreen extends StatefulWidget {
 class _SignUpScreenState extends State<SignUpScreen> {
   TextEditingController userNameTextEditingController = TextEditingController();
   TextEditingController emailTextEditingController = TextEditingController();
+  TextEditingController phoneTextEditingController = TextEditingController();
   TextEditingController passwordTextEditingController = TextEditingController();
 
   @override
@@ -52,6 +53,21 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         keyboardType: TextInputType.emailAddress,
                         decoration: const InputDecoration(
                           labelText: "user email",
+                          labelStyle: TextStyle(
+                            fontSize: 14,
+                          ),
+
+                        ),
+                        style: const TextStyle(
+                            color: Colors.grey
+                        ),
+                      ),
+                      const SizedBox(height: 10,),
+                      TextField(
+                        controller: phoneTextEditingController,
+                        keyboardType: TextInputType.phone,
+                        decoration: const InputDecoration(
+                          labelText: "user phone",
                           labelStyle: TextStyle(
                             fontSize: 14,
                           ),
