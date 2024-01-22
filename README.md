@@ -1,16 +1,21 @@
 # user_app
 
-This is Flutter Uber Clone User app
+And user registration and login app using flutter and firebase.
 
-## Getting Started
+## Topic Covered
+Dart: Basics (Variables, Datatypes, Control Flow, Loops, etc.), Error Handling, Functions, etc.
 
-This project is a starting point for a Flutter application.
+Flutter Architecture: Widgets, Widget Tree, BuildContext, State, etc.
 
-A few resources to get you started if this is your first Flutter project:
+Building UI with Widgets: Text, Container, Row, Column, Stack, Padding, Center, Scaffold, and other basic widgets.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Hot Reload: Seeing changes live without restarting the app.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+User Interactions: text input, and buttons.
+
+Navigation: Routing between screens, push/pop.
+
+Asynchronous Programming: Futures and async/await for handling asynchronous tasks.
+
+Packages and Dependencies: used third-party packages for additional features.
+
